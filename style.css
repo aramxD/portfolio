@@ -230,6 +230,16 @@ nav .indicador {
 
 @keyframes DJango-fill {
     100% {
+        width: 80%;
+    }
+}
+
+#Postgresql-bar {
+    animation: Postgresql-fill 2s forwards;
+}
+
+@keyframes Postgresql-fill {
+    100% {
         width: 60%;
     }
 }
