@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons stilos-->
+    <link href='https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css' rel='stylesheet'>
+    <title>JS Portafolio</title>
+</head>
+
+<body>
+    <header class="hero" id="hero">
+
+        <h1>Julio Santacruz WebDev</h1>
+        <p>HTML • CSS • Javascript • Django</p>
+    </header>
+
+    <nav id="menu">
+        <a href="#hero"><img src="img/logo_450x200_azul_trans.png" alt="logo" class="nav-logo"></a>
+        <a href="#aboutme">AboutMe</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <span class="indicador" id="indicador"></span>
+    </nav>
+
+    <section class=" seccion" id="aboutme">
+        <div class="aboutme-card ">
+            <div class="aboutme-img">
+                <img src="img/Startup_Monochromatic.png" class="" alt="">
+            </div>
+            <div class="aboutme-text">
+                <h2>Hello, My name is Julio Santacruz,<br> I'm a web developer </h2>
+                <p>Let me help you with your project</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="seccion  " id="skills">
+        <div class="skills skills-card">
+            <div class="skills-description">
+                <img src="img/img-skills.svg" alt="">
+            </div>
+            <div class="skills-box">
+                <h2>Skills</h2>
+
+                <div class="skills-bar">
+                    <div class="skills-details">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="html-bar"></div>
+                    </div>
+                </div>
+
+                <div class="skills-bar">
+                    <div class="skills-details">
+                        <span>CSS</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="CSS-bar"></div>
+                    </div>
+                </div>
+
+                <div class="skills-bar">
+                    <div class="skills-details">
+                        <span>Javascript</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="JS-bar"></div>
+                    </div>
+                </div>
+
+                <div class="skills-bar">
+                    <div class="skills-details">
+                        <span>DJango</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="DJango-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="seccion gallery" id="projects">
+        <div class=" ">
+            <h2>Latest projects...<span>&#160;</span></h2>
+        </div>
+        <div class="project-list">
+
+            <div class="project">
+                <div class="project-card project-card-shadow ">
+                    <div class="project-card-content">
+                        <div class="project-card-img center-img">
+                            <img src="img/p_bimcapacitacion.png" alt="" class="img-galeria">
+                        </div>
+                        <h3>BIMCapacitacion</h3>
+                        <!-- <p class="project-description">
+                            This project was formed to share information and tutorials about 3D modeling with Autodesk Revit
+                        </p> -->
+                        <ul>
+                            <li><i class='bx bxl-html5'></i> HTML </li>
+                            <li><i class='bx bxl-css3'></i> CSS</li>
+                            <li><i class='bx bxl-javascript'></i>JS</li>
+                            <li><i class='bx bxl-wordpress'></i> Wordpress</li>
+                        </ul>
+                    </div>
+                    <div class="project-card-footer">
+                        <a href="http://www.bimcapacitacion.com" class="project-card-btn"> View Live </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-card project-card-shadow ">
+                    <div class="project-card-content">
+                        <div class="project-card-img center-img">
+                            <img src="img/p_office_registration.png" alt="" class="img-galeria">
+                        </div>
+                        <h3>Office Register</h3>
+                        <!-- <p class="project-description">
+                            With this project, visitors to a business or offices can fill out their registration and the administrator can download the list of visitors to a spreadsheet. </p> -->
+                        <ul>
+                            <li><i class='bx bxl-html5'></i> HTML </li>
+                            <li> <i class='bx bxl-css3'></i> CSS</li>
+                            <li><i class='bx bxl-javascript'></i> JS</li>
+                            <li><i class='bx bxl-django'></i> Django</li>
+                        </ul>
+                    </div>
+                    <div class="project-card-footer">
+                        <a href="https://a-coworking.herokuapp.com/" class="project-card-btn"> View Live </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-card project-card-shadow ">
+                    <div class="project-card-content">
+                        <div class="project-card-img center-img ">
+                            <img src="img/p_casa_hogar.png" alt="" class=" img-galeria">
+                        </div>
+                        <h3>Agnes Donation Web</h3>
+                        <!-- <p class="project-description">
+                            With this pr on and the administrator can download the list of visitors to a spreadsheet. </p> -->
+                        <ul>
+                            <li><i class='bx bxl-html5'></i> HTML </li>
+                            <li> <i class='bx bxl-css3'></i> CSS</li>
+                            <li><i class='bx bxl-javascript'></i> JS</li>
+                            <li><i class='bx bxl-django'></i> Django</li>
+                        </ul>
+                    </div>
+                    <div class="project-card-footer">
+                        <a href="https://hogar-agneslester.herokuapp.com/" class="project-card-btn"> View Live </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-card project-card-shadow ">
+                    <div class="project-card-content">
+                        <div class="project-card-img center-img">
+                            <img src="img/p_discountscitys.png" alt="" class="img-galeria">
+                        </div>
+                        <h3>Discounts Citys Subscription</h3>
+                        <!-- <p class="project-description">
+                            With this pro n fill out their registration and the administrator can download the list of visitors to a spreadsheet. </p> -->
+                        <ul>
+                            <li><i class='bx bxl-html5'></i> HTML </li>
+                            <li> <i class='bx bxl-css3'></i> CSS</li>
+                            <li><i class='bx bxl-javascript'></i> JS</li>
+                            <li><i class='bx bxl-django'></i> Django</li>
+                        </ul>
+                    </div>
+                    <div class="project-card-footer">
+                        <a href="http://www.discounts.city" class="project-card-btn"> View Live </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="image-light">
+        <img src="img/bx-x.svg" alt="" class="close">
+        <img src="img/3.jpg" alt="" class="agregar-imagen">
+
+    </section>
+
+
+
+
+    <section class="seccion contact" id="contact">
+        <div class=" ">
+            <h2>Contact me</h2>
+            <a href="mailto:aram.jsh1@gmail.com" target="_blank">Send an Email</a>
+        </div>
+        <div class="social-media">
+            <a href="https://github.com/aramxD" target="_blank" class="social-media-icon">
+                <i class='bx bxl-github'></i>
+            </a>
+            <a href="https://www.facebook.com/jashxD" target="_blank" class="social-media-icon">
+                <i class='bx bxl-facebook-circle'></i>
+            </a>
+            <a href="#" class="social-media-icon">
+                <i class='bx bxl-twitter'></i>
+            </a>
+            <a href="https://www.instagram.com/juliosantacruz.h/" target="_blank" class="social-media-icon">
+                <i class='bx bxl-instagram'></i>
+            </a>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <footer>
+        <div class="container footer-content">
+
+            <div class="footer-btn">
+                <a href="#hero"><i class='bx bx-up-arrow-circle' ></i></a>
+                <p>Inicio</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="lightbox.js"></script>
+</body>
+
+</html>
