@@ -506,9 +506,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 800px) {
-    nav a {}
-}
+@media screen and (max-width: 800px) {}
 
 @media screen and (max-width: 450px) {
     nav a {
