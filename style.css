@@ -565,7 +565,7 @@ footer {
         font-size: 30px;
     }
     .hero {
-        height: calc(100vh- 120px);
+        height: calc(100vh - 120px);
     }
     .aboutme-text p {
         line-height: 38px;
