@@ -564,6 +564,10 @@ footer {
     .seccion h2 {
         font-size: 30px;
     }
+    .aboutme-text p {
+        line-height: 38px;
+        margin-bottom: 0;
+    }
     .project {
         width: 90%;
     }
