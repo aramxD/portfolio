@@ -427,6 +427,15 @@ nav .indicador {
     background-attachment: fixed;
     background-position: center;
     background-color: #FFFFFF;
+    text-align: center;
+}
+
+.contact-me h2 {
+    padding-top: 30px;
+}
+
+.contact-me a {
+    font-size: 20px;
 }
 
 
@@ -439,11 +448,12 @@ footer {
 
 .footer-content {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-right: 20px;
 }
 
 .footer-btn {
@@ -496,6 +506,46 @@ footer {
         font-size: 14px;
         padding: 5px;
     }
+    .hero h1 {
+        font-size: 4rem;
+        text-align: center;
+    }
+    .hero p {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .aboutme-card {
+        flex-direction: column-reverse;
+        height: 80vh;
+        justify-content: space-around;
+    }
+    .aboutme-img {
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .aboutme-img img {
+        height: auto;
+        width: 60vw;
+    }
+    .skills {
+        flex-direction: column
+    }
+    .skills-description {
+        width: 50%;
+    }
+    .project {
+        width: 40%;
+    }
+    .project-card h3 {
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 7px 0;
+    }
+    .project-card ul {
+        font-size: .6rem;
+    }
     .contact {
         background-size: auto;
         background-position: top;
@@ -503,10 +553,21 @@ footer {
     }
     .social-media {
         padding-top: 10px;
+        width: 70%;
+    }
+    .social-media a {
+        margin-left: 0;
     }
 }
 
-@media screen and (max-width: 800px) {}
+@media screen and (max-width: 600px) {
+    .seccion h2 {
+        font-size: 30px;
+    }
+    .project {
+        width: 90%;
+    }
+}
 
 @media screen and (max-width: 450px) {
     nav a {
