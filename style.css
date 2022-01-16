@@ -210,7 +210,7 @@ nav .indicador {
 }
 
 #CSS-bar {
-    animation: CSS-fill 2s forwards;
+    animation: CSS-fill 3s forwards;
 }
 
 @keyframes CSS-fill {
@@ -220,17 +220,17 @@ nav .indicador {
 }
 
 #JS-bar {
-    animation: JS-fill 2s forwards;
+    animation: JS-fill 5s forwards;
 }
 
 @keyframes JS-fill {
     100% {
-        width: 50%;
+        width: 80%;
     }
 }
 
 #DJango-bar {
-    animation: DJango-fill 2s forwards;
+    animation: DJango-fill 7s forwards;
 }
 
 @keyframes DJango-fill {
@@ -240,7 +240,7 @@ nav .indicador {
 }
 
 #Postgresql-bar {
-    animation: Postgresql-fill 2s forwards;
+    animation: Postgresql-fill 9s forwards;
 }
 
 @keyframes Postgresql-fill {
