@@ -354,7 +354,13 @@ nav .indicador {
 .project-card-footer {
     padding-top: 10px;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between
+}
+
+.project-card-footer p {
+    margin: 0;
+    font-size: .6rem;
 }
 
 .project-card-btn {
