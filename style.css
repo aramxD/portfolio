@@ -215,7 +215,7 @@ nav .indicador {
 
 @keyframes CSS-fill {
     100% {
-        width: 70%;
+        width: 80%;
     }
 }
 
@@ -224,6 +224,16 @@ nav .indicador {
 }
 
 @keyframes JS-fill {
+    100% {
+        width: 80%;
+    }
+}
+
+#React-bar {
+    animation: React-fill 5s forwards;
+}
+
+@keyframes React-fill {
     100% {
         width: 80%;
     }
@@ -245,7 +255,7 @@ nav .indicador {
 
 @keyframes Postgresql-fill {
     100% {
-        width: 60%;
+        width: 75%;
     }
 }
 

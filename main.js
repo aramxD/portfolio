@@ -1,4 +1,4 @@
-const menu = document.getElementById('menu');
+const menu = document.getElementById('navbar');
 const indicador = document.getElementById('indicador');
 const secciones = document.querySelectorAll('.seccion');
 
@@ -35,7 +35,7 @@ const observer = new IntersectionObserver((entradas, observer) => {
 })
 
 // agregamos observer para el hero
-observer.observe(document.getElementById('hero'))
+observer.observe(document.getElementById('welcome-section'))
 
 // ASIGNAMOS EL OBSERVADOR A CADA UNA DE LAS SECCIONES
 secciones.forEach(seccion => observer.observe(seccion))
