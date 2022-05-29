@@ -299,7 +299,8 @@ nav .indicador {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: space-around;
-    align-items: center
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 .project {
@@ -532,8 +533,9 @@ footer {
         text-align: center;
     }
     .hero p {
-        font-size: 1.5rem;
+        font-size: 2rem;
         text-align: center;
+        margin: 10px 15px 0 15px;
     }
     .aboutme-card {
         flex-direction: column-reverse;
@@ -571,6 +573,8 @@ footer {
         background-size: auto;
         background-position: top;
         justify-content: space-around;
+        height: calc(100vh - 80px);
+        min-height: calc(100vh - 80px);
     }
     .social-media {
         padding-top: 10px;
